@@ -1,0 +1,31 @@
+{
+  "name": "vite-dnn-starter",
+  "version": "0.1.0",
+  "description": "A template for using Vite to develop DotNetNuke skins",
+  "homepage": "https://github.com/6TELOIV/vite-dnn-starter#readme",
+  "bugs": {
+    "url": "https://github.com/6TELOIV/vite-dnn-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6TELOIV/vite-dnn-starter.git"
+  },
+  "license": "MIT",
+  "author": "Violet Rosenzweig",
+    "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@violetrose/vite-plugin-dnn-ascx": "^0.1.2",
+    "fast-glob": "^3.3.3",
+    "rollup": "^4.57.1"
+  }
+}
